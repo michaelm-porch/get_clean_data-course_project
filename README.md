@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 getting-and-cleaning-data-course-project
 ========================================
 
@@ -34,7 +34,3 @@ Information about the datasets is provided in `CodeBook.md`.
 ## Code 
 The code contains detailed commments explaining the steps in which the original data was transformed.
 
-=======
-# get_clean_data-course_project
-Coursera Getting and Cleaning Data => Course Project
->>>>>>> 62f4d2f2fc2d15d37f2fbb64300a992ab4c3766e
