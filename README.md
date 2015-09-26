@@ -1,4 +1,3 @@
-
 getting-and-cleaning-data-course-project
 ========================================
 
@@ -7,18 +6,17 @@ Course project deliverables for the Coursera course [Getting and Cleaning Data](
 ## Installation
 * create a new directory named (assuming linux style directory structure): ~/dev/Coursera/datasciencecoursera/GetCleanData/course_project
 * Download and unzip the Project from git into the new directory
-* Download the raw data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip to the same diretory and unzip it. 
-** There are several data files in the original source set, but you will only be concerned with the following:
- 
-*** UCI HAR Dataset
-**** README.txt
-**** activity_labels.txt
-**** features.txt
-**** features_info.txt
-**** test
-**** train
-*** run_analysis.R
+* Download the raw data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip to the same diretory and unzip it.
 
+There are several data files in the original source set, but you will only be concerned with the following:
+ 
+	UCI HAR Dataset
+		README.txt
+		activity_labels.txt
+		features.txt
+		features_info.txt
+		test
+		train
 
 ## Dependencies
 The script `run_analysis.R` depends on the libraries `dplyr`, if you have not installed them then execute `install.packages(dplyr)` from the `RStudio IDE` or `R Console` prompt.
