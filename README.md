@@ -4,7 +4,8 @@ Getting and Cleaning Data - Course Project
 Course project deliverables for the Coursera course [Getting and Cleaning Data](https://www.coursera.org/course/getdata)
 
 ## Installation
-* create a new directory named (assuming linux style directory structure): ~/dev/Coursera/datasciencecoursera/GetCleanData/course_project
+* Create a new directory named (assuming linux style directory structure): 
+	~/dev/Coursera/datasciencecoursera/GetCleanData/course_project
 * Download and unzip the Project from git into the new directory
 * Download the raw data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip to the same diretory and unzip it.
 
