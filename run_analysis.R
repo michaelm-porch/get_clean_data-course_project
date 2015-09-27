@@ -1,5 +1,5 @@
 
-setwd("~/dev/Coursera/datasciencecoursera/GetCleanData/get_clean_data-course_project")
+setwd("./GetCleanData/get_clean_data-course_project")
 library(dplyr)
 
 if (!file.exists("./source_data/HARUS.zip")) { 
@@ -85,6 +85,9 @@ CleanAndAggregateStudy <- function(calculateAverages = TRUE) {
 }
 
 #write averages to output file
-write.table(CleanAndAggregateStudy(calculateAverages = TRUE), "./StudyAveragesTidy.csv", sep=",", row.names = FALSE, )
-#write.table(CleanAndAggregateStudy(calculateAverages = FALSE), "./StudyMergedTidy.csv", sep=",", row.names = FALSE, )
+resultFile <- paste(getwd(), "/results/StudyAveragesTidy.csv", sep="")
+write.table(CleanAndAggregateStudy(calculateAverages = TRUE), resultFile, sep=",", row.names = FALSE, )
+
+#resultFile <- paste(getwd(), "/results/StudyMergedTidy.csv", sep="")
+#write.table(CleanAndAggregateStudy(calculateAverages = FALSE), "./", sep=",", row.names = FALSE, )
 
