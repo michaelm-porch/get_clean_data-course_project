@@ -1,4 +1,4 @@
-getting-and-cleaning-data-course-project
+Getting and Cleaning Data - Course Project
 ========================================
 
 Course project deliverables for the Coursera course [Getting and Cleaning Data](https://www.coursera.org/course/getdata)
